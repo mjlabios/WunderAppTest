@@ -3,17 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C25C08B0DEF2A019CEA57D /* Pods_WunderAppTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8E8167EA0AA176FD2E739D /* Pods_WunderAppTestTests.framework */; };
+		124FF0C4236B0A7C005E768D /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 124FF0C3236B0A7C005E768D /* readme.md */; };
 		1277CFAB2368277300EF99CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277CFAA2368277300EF99CF /* AppDelegate.swift */; };
 		1277CFAD2368277300EF99CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277CFAC2368277300EF99CF /* SceneDelegate.swift */; };
-		1277CFAF2368277300EF99CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277CFAE2368277300EF99CF /* ViewController.swift */; };
+		1277CFAF2368277300EF99CF /* CarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277CFAE2368277300EF99CF /* CarTableViewController.swift */; };
 		1277CFB22368277300EF99CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1277CFB02368277300EF99CF /* Main.storyboard */; };
 		1277CFB42368277500EF99CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1277CFB32368277500EF99CF /* Assets.xcassets */; };
 		1277CFB72368277500EF99CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1277CFB52368277500EF99CF /* LaunchScreen.storyboard */; };
 		1277CFC22368277600EF99CF /* WunderAppTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277CFC12368277600EF99CF /* WunderAppTestTests.swift */; };
+		1277CFCE2368292D00EF99CF /* CarTableViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277CFCD2368292D00EF99CF /* CarTableViewViewModel.swift */; };
+		1277CFD02368295100EF99CF /* CarCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277CFCF2368295100EF99CF /* CarCellViewModel.swift */; };
+		1277CFD32368299D00EF99CF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277CFD22368299D00EF99CF /* MapViewController.swift */; };
+		1277CFD6236829DC00EF99CF /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277CFD5236829DC00EF99CF /* CarTableViewCell.swift */; };
+		1277CFD923682A0500EF99CF /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277CFD823682A0500EF99CF /* Car.swift */; };
+		1277CFDC23682ACF00EF99CF /* AppServerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277CFDB23682ACF00EF99CF /* AppServerClient.swift */; };
+		1277CFDF23682B0F00EF99CF /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277CFDE23682B0F00EF99CF /* Alert.swift */; };
+		1277CFE323682B5400EF99CF /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277CFE223682B5400EF99CF /* Result.swift */; };
+		1277CFE523682B5F00EF99CF /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277CFE423682B5F00EF99CF /* JSON.swift */; };
+		1277CFE823682B8400EF99CF /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277CFE723682B8400EF99CF /* UIViewControllerExtension.swift */; };
+		12963F572368DDB5001117BF /* ReadOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12963F562368DDB5001117BF /* ReadOnce.swift */; };
+		7781B59CE4AD2D7B1A310053 /* Pods_WunderAppTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AF9D83D0F331C5C350509F /* Pods_WunderAppTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		124FF0C3236B0A7C005E768D /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		1277CFA72368277300EF99CF /* WunderAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WunderAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1277CFAA2368277300EF99CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1277CFAC2368277300EF99CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1277CFAE2368277300EF99CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1277CFAE2368277300EF99CF /* CarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewController.swift; sourceTree = "<group>"; };
 		1277CFB12368277300EF99CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1277CFB32368277500EF99CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1277CFB62368277500EF99CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +53,23 @@
 		1277CFBD2368277500EF99CF /* WunderAppTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderAppTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1277CFC12368277600EF99CF /* WunderAppTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderAppTestTests.swift; sourceTree = "<group>"; };
 		1277CFC32368277600EF99CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1277CFCD2368292D00EF99CF /* CarTableViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewViewModel.swift; sourceTree = "<group>"; };
+		1277CFCF2368295100EF99CF /* CarCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCellViewModel.swift; sourceTree = "<group>"; };
+		1277CFD22368299D00EF99CF /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1277CFD5236829DC00EF99CF /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
+		1277CFD823682A0500EF99CF /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		1277CFDB23682ACF00EF99CF /* AppServerClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServerClient.swift; sourceTree = "<group>"; };
+		1277CFDE23682B0F00EF99CF /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		1277CFE223682B5400EF99CF /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		1277CFE423682B5F00EF99CF /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		1277CFE723682B8400EF99CF /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		12963F562368DDB5001117BF /* ReadOnce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadOnce.swift; sourceTree = "<group>"; };
+		14AF9D83D0F331C5C350509F /* Pods_WunderAppTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WunderAppTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8E8167EA0AA176FD2E739D /* Pods_WunderAppTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WunderAppTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		370D272D1CAA2441B76A39DB /* Pods-WunderAppTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderAppTest.debug.xcconfig"; path = "Target Support Files/Pods-WunderAppTest/Pods-WunderAppTest.debug.xcconfig"; sourceTree = "<group>"; };
+		55421C7F8638770ACC8C8436 /* Pods-WunderAppTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderAppTest.release.xcconfig"; path = "Target Support Files/Pods-WunderAppTest/Pods-WunderAppTest.release.xcconfig"; sourceTree = "<group>"; };
+		872EE12A90A87194176C618D /* Pods-WunderAppTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderAppTestTests.release.xcconfig"; path = "Target Support Files/Pods-WunderAppTestTests/Pods-WunderAppTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5694E14C3C33CF5A730F05C /* Pods-WunderAppTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderAppTestTests.debug.xcconfig"; path = "Target Support Files/Pods-WunderAppTestTests/Pods-WunderAppTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7781B59CE4AD2D7B1A310053 /* Pods_WunderAppTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C25C08B0DEF2A019CEA57D /* Pods_WunderAppTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,9 +95,12 @@
 		1277CF9E2368277300EF99CF = {
 			isa = PBXGroup;
 			children = (
+				124FF0C3236B0A7C005E768D /* readme.md */,
 				1277CFA92368277300EF99CF /* WunderAppTest */,
 				1277CFC02368277500EF99CF /* WunderAppTestTests */,
 				1277CFA82368277300EF99CF /* Products */,
+				A6C699FFD44157C0C73A6574 /* Pods */,
+				509229CA88A2722E6AE2C82B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,9 +116,15 @@
 		1277CFA92368277300EF99CF /* WunderAppTest */ = {
 			isa = PBXGroup;
 			children = (
+				1277CFE623682B6C00EF99CF /* Extensions */,
+				1277CFDD23682B0200EF99CF /* Helpers */,
+				1277CFDA23682ABE00EF99CF /* Service */,
+				1277CFD7236829F600EF99CF /* Model */,
+				1277CFD4236829CA00EF99CF /* View */,
+				1277CFD12368296400EF99CF /* ViewController */,
+				1277CFCC2368291B00EF99CF /* ViewModel */,
 				1277CFAA2368277300EF99CF /* AppDelegate.swift */,
 				1277CFAC2368277300EF99CF /* SceneDelegate.swift */,
-				1277CFAE2368277300EF99CF /* ViewController.swift */,
 				1277CFB02368277300EF99CF /* Main.storyboard */,
 				1277CFB32368277500EF99CF /* Assets.xcassets */,
 				1277CFB52368277500EF99CF /* LaunchScreen.storyboard */,
@@ -99,6 +142,87 @@
 			path = WunderAppTestTests;
 			sourceTree = "<group>";
 		};
+		1277CFCC2368291B00EF99CF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1277CFCD2368292D00EF99CF /* CarTableViewViewModel.swift */,
+				1277CFCF2368295100EF99CF /* CarCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1277CFD12368296400EF99CF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1277CFAE2368277300EF99CF /* CarTableViewController.swift */,
+				1277CFD22368299D00EF99CF /* MapViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1277CFD4236829CA00EF99CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1277CFD5236829DC00EF99CF /* CarTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1277CFD7236829F600EF99CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1277CFD823682A0500EF99CF /* Car.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1277CFDA23682ABE00EF99CF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1277CFDB23682ACF00EF99CF /* AppServerClient.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1277CFDD23682B0200EF99CF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1277CFDE23682B0F00EF99CF /* Alert.swift */,
+				1277CFE223682B5400EF99CF /* Result.swift */,
+				1277CFE423682B5F00EF99CF /* JSON.swift */,
+				12963F562368DDB5001117BF /* ReadOnce.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1277CFE623682B6C00EF99CF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1277CFE723682B8400EF99CF /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		509229CA88A2722E6AE2C82B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14AF9D83D0F331C5C350509F /* Pods_WunderAppTest.framework */,
+				2C8E8167EA0AA176FD2E739D /* Pods_WunderAppTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6C699FFD44157C0C73A6574 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				370D272D1CAA2441B76A39DB /* Pods-WunderAppTest.debug.xcconfig */,
+				55421C7F8638770ACC8C8436 /* Pods-WunderAppTest.release.xcconfig */,
+				B5694E14C3C33CF5A730F05C /* Pods-WunderAppTestTests.debug.xcconfig */,
+				872EE12A90A87194176C618D /* Pods-WunderAppTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1277CFC62368277600EF99CF /* Build configuration list for PBXNativeTarget "WunderAppTest" */;
 			buildPhases = (
+				8149561B213132E98F935898 /* [CP] Check Pods Manifest.lock */,
 				1277CFA32368277300EF99CF /* Sources */,
 				1277CFA42368277300EF99CF /* Frameworks */,
 				1277CFA52368277300EF99CF /* Resources */,
+				A841322E567894FE4E63018C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +249,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1277CFC92368277600EF99CF /* Build configuration list for PBXNativeTarget "WunderAppTestTests" */;
 			buildPhases = (
+				5BD57B941ACF9BA3D336E03E /* [CP] Check Pods Manifest.lock */,
 				1277CFB92368277500EF99CF /* Sources */,
 				1277CFBA2368277500EF99CF /* Frameworks */,
 				1277CFBB2368277500EF99CF /* Resources */,
@@ -182,6 +309,7 @@
 			files = (
 				1277CFB72368277500EF99CF /* LaunchScreen.storyboard in Resources */,
 				1277CFB42368277500EF99CF /* Assets.xcassets in Resources */,
+				124FF0C4236B0A7C005E768D /* readme.md in Resources */,
 				1277CFB22368277300EF99CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,14 +323,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5BD57B941ACF9BA3D336E03E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WunderAppTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8149561B213132E98F935898 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WunderAppTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A841322E567894FE4E63018C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WunderAppTest/Pods-WunderAppTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WunderAppTest/Pods-WunderAppTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WunderAppTest/Pods-WunderAppTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1277CFA32368277300EF99CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1277CFAF2368277300EF99CF /* ViewController.swift in Sources */,
+				12963F572368DDB5001117BF /* ReadOnce.swift in Sources */,
+				1277CFD02368295100EF99CF /* CarCellViewModel.swift in Sources */,
+				1277CFE523682B5F00EF99CF /* JSON.swift in Sources */,
+				1277CFD6236829DC00EF99CF /* CarTableViewCell.swift in Sources */,
+				1277CFD923682A0500EF99CF /* Car.swift in Sources */,
+				1277CFD32368299D00EF99CF /* MapViewController.swift in Sources */,
+				1277CFAF2368277300EF99CF /* CarTableViewController.swift in Sources */,
+				1277CFE323682B5400EF99CF /* Result.swift in Sources */,
 				1277CFAB2368277300EF99CF /* AppDelegate.swift in Sources */,
 				1277CFAD2368277300EF99CF /* SceneDelegate.swift in Sources */,
+				1277CFCE2368292D00EF99CF /* CarTableViewViewModel.swift in Sources */,
+				1277CFDF23682B0F00EF99CF /* Alert.swift in Sources */,
+				1277CFE823682B8400EF99CF /* UIViewControllerExtension.swift in Sources */,
+				1277CFDC23682ACF00EF99CF /* AppServerClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +563,7 @@
 		};
 		1277CFC72368277600EF99CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 370D272D1CAA2441B76A39DB /* Pods-WunderAppTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +582,7 @@
 		};
 		1277CFC82368277600EF99CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55421C7F8638770ACC8C8436 /* Pods-WunderAppTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +601,7 @@
 		};
 		1277CFCA2368277600EF99CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5694E14C3C33CF5A730F05C /* Pods-WunderAppTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +624,7 @@
 		};
 		1277CFCB2368277600EF99CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872EE12A90A87194176C618D /* Pods-WunderAppTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
