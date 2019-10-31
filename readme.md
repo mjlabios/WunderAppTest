@@ -1,6 +1,13 @@
 # Wunder App Test
 ### Car Info and Map
 
+## Instructions
+
+1. Download the project.
+
+2. cd to the project folder using terminal.
+
+3. Type and enter "pod install".
 
 ## Notes
 
